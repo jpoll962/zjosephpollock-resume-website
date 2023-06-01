@@ -11,7 +11,7 @@
 This the interactive resume for Z. Joseph Pollock, an asiprising venture capitalist. Graduated from Utah State University with dual Bachelor's of Science in Computer Engineering and Economics.
 
 ## Acknowledgements
-* [Tim Baker](https://github.com/jpoll962/zjosephpollock-resume-website)
+* [Tim Baker](https://github.com/tbakerx)
 
 
 # Delete once code is used as reference for later areas
