@@ -11,8 +11,6 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -44,7 +42,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Z. Joseph Pollock\' Interactive Resume',
+  title: 'Z. Joseph Pollock\'s Interactive Resume',
   description: "Welcome to Z. Joseph Pollock's Interactive Resume for an extensive view into his experience!",
 };
 
@@ -73,14 +71,14 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm an aspiring <strong className="text-stone-100">ventur capitalist</strong>, currently working
+        at <strong className="text-stone-100">Anthos Capital</strong> helping connect start-up businesses in the tech. industry
+        with financial resources.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me <strong className="text-stone-100">strength training</strong> in the gym,
+        plucking my <strong className="text-stone-100">ukulele</strong>, or day-dreaming about the{' '}
+        <strong className="text-stone-100">depths of the ocean</strong>.
       </p>
     </>
   ),
@@ -108,12 +106,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Logan, Utah, USA', Icon: MapIcon},
+    {label: 'Age', text: '23', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'American / Irish / French', Icon: FlagIcon},
+    {label: 'Interests', text: 'Motorcycles, Ukulele, Free & Accepted Masons', Icon: SparklesIcon},
+    {label: 'Study', text: 'Utah State Univesity', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Anthos Capital, Merrill-Cazier Library', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -129,7 +127,7 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
+        name: 'German',
         level: 4,
       },
       {
@@ -139,53 +137,54 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Computer Programming',
     skills: [
       {
-        name: 'React',
+        name: 'C/C++',
         level: 9,
       },
       {
-        name: 'Typescript',
+        name: 'Python',
         level: 7,
       },
       {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
+        name: 'AI/Machine Learning',
         level: 5,
       },
-      {
-        name: 'Golang',
-        level: 4,
-      },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Hardware Development',
     skills: [
       {
-        name: 'React Native',
+        name: 'Aduino',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'VHDL',
+        level: 8,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Verilog',
+        level: 7,
+      },
+      
+    ],
+  },
+  {
+    name: 'Venture Capital',
+    skills: [
+      {
+        name: 'Portfolio Management',
+        level: 8,
+      },
+      {
+        name: 'Investment Strategies',
+        level: 7,
+      },
+      {
+        name: 'Deal Sourcing',
+        level: 6,
       },
     ],
   },
@@ -198,67 +197,67 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Project title 1',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/jpoll962',
     image: porfolioImage1,
   },
   {
     title: 'Project title 2',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/jpoll962',
     image: porfolioImage2,
   },
   {
     title: 'Project title 3',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/jpoll962',
     image: porfolioImage3,
   },
   {
     title: 'Project title 4',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/jpoll962',
     image: porfolioImage4,
   },
   {
     title: 'Project title 5',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/jpoll962',
     image: porfolioImage5,
   },
   {
     title: 'Project title 6',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/jpoll962',
     image: porfolioImage6,
   },
   {
     title: 'Project title 7',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/jpoll962',
     image: porfolioImage7,
   },
   {
     title: 'Project title 8',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/jpoll962',
     image: porfolioImage8,
   },
   {
     title: 'Project title 9',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/jpoll962',
     image: porfolioImage9,
   },
   {
     title: 'Project title 10',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/jpoll962',
     image: porfolioImage10,
   },
   {
     title: 'Project title 11',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/jpoll962',
     image: porfolioImage11,
   },
 ];
@@ -340,23 +339,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'z.joseph.pollock@gmail.com',
+      href: 'mailto:z.joseph.pollock@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
+      text: 'Logan, UT, USA',
       href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@jpoll962',
+      href: 'https://www.instagram.com/jpoll962/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'jpoll962',
+      href: 'https://github.com/jpoll962',
     },
   ],
 };
@@ -365,9 +364,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/jpoll962'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/z-joseph/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/jpoll962/'},
 ];
