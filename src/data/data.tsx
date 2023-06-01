@@ -40,7 +40,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Z. Joseph Pollock\'s Interactive Resume',
+  title: 'Z. Joseph Pollock | Interactive Resume',
   description: "Welcome to Z. Joseph Pollock's Interactive Resume for an extensive view into his experience!",
 };
 
