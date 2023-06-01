@@ -71,7 +71,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm an aspiring <strong className="text-stone-100">ventur capitalist</strong>, currently working
+        I'm an aspiring <strong className="text-stone-100">venture capitalist</strong>, currently working
         at <strong className="text-stone-100">Anthos Capital</strong> helping connect start-up businesses in the tech. industry
         with financial resources.
       </p>
@@ -109,7 +109,7 @@ export const aboutData: About = {
     {label: 'Location', text: 'Logan, Utah, USA', Icon: MapIcon},
     {label: 'Age', text: '23', Icon: CalendarIcon},
     {label: 'Nationality', text: 'American / Irish / French', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Ukulele, Free & Accepted Masons', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Motorcycles, Ukulele, Freemasonry', Icon: SparklesIcon},
     {label: 'Study', text: 'Utah State Univesity', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Anthos Capital, Merrill-Cazier Library', Icon: BuildingOffice2Icon},
   ],
@@ -267,24 +267,24 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
+    date: 'August 2018 - May 2023',
+    location: 'Utah State University | College of Engineering',
+    title: 'Bachelors of Science in Computer Engineering',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
+    date: 'August 2018 - May 2023',
+    location: 'Utah State University | Jon M. Huntsman School of Business',
+    title: 'Bachelors of Science in Economics',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'March 2022 - Present',
+    location: 'Anthos Capital',
+    title: 'Venture Capital Scout',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -293,7 +293,7 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'March 2007 - February 2010',
+    date: 'August 2007 - February 2010',
     location: 'Garage Startup Studio',
     title: 'Junior bug fixer',
     content: (
