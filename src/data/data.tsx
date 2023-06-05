@@ -80,7 +80,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/pollock_z_joseph_resume.pdf',
+      href: '/assets/resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -98,9 +98,13 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I am a computer nerd with an entrepreneurial spirit, a knack for cyber security, and a drive toward investment management.
+  Born in a small town in Kentucky, I moved to Utah when I was 18 to begin my higher education at Utah State University where I completed
+  a dual Bachelors of Science in Computer Engineering and Economics.
+  
+  Outside of work, I am an avid motorcyclist, hardware developer, and software hobbyist. I discovered my passion for investing during my
+  undergraduate where I became the lead stock investor in my Investment course. I dream of researching the bleeding edge of technology
+  as I introduce start up tech companies with financial intermediaries.`,
   aboutItems: [
     {label: 'Location', text: 'Logan, Utah, USA', Icon: MapIcon},
     {label: 'Age', text: '23', Icon: CalendarIcon},
@@ -233,9 +237,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage7,
   },
   {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/jpoll962',
+    title: 'InMoov Hand',
+    description: 'This project involves the development of a 3D printed forearm and hand utilizing the "open-source 3D printed life-size robot" known as InMoov, created by Gael Langevin. The hardware programming, implemented in C++, enables precise movement control of the hand. This venture combines hardware programming expertise with innovative 3D printing technology, offering a unique opportunity to explore advancements in robotics and prosthetics.',
+    url: 'https://github.com/jpoll962/InMoovHand',
     image: porfolioImage8,
   },
   {
