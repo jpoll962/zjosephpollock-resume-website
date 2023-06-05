@@ -80,7 +80,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/assets/pollock_z_joseph_resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
