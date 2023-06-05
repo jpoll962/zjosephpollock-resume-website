@@ -101,7 +101,6 @@ export const ContactType = {
   Location: 'Location',
   Github: 'Github',
   LinkedIn: 'LinkedIn',
-  Instagram: 'Instagram',
 } as const;
 
 export type ContactType = typeof ContactType[keyof typeof ContactType];
