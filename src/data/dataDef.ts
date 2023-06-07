@@ -31,7 +31,7 @@ interface HeroActionItem {
  */
 export interface About {
   profileImageSrc?: string;
-  description: string;
+  description: JSX.Element;
   aboutItems: AboutItem[];
 }
 

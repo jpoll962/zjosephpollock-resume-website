@@ -98,13 +98,20 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I am a computer nerd with an entrepreneurial spirit, a knack for cyber security, and a drive toward investment management.
-  Born in a small town in Kentucky, I moved to Utah when I was 18 to begin my higher education at Utah State University where I completed
-  a dual Bachelors of Science in Computer Engineering and Economics.
-  
-  Outside of work, I am an avid motorcyclist, hardware developer, and software hobbyist. I discovered my passion for investing during my
-  undergraduate where I became the lead stock investor in my Investment course. I dream of researching the bleeding edge of technology
-  as I introduce start up tech companies with financial intermediaries.`,
+  description: ( 
+  <>
+    <p>
+      I am a computer nerd with an entrepreneurial spirit, a knack for cyber security, and a drive toward investment management.
+      Born in a small town in Kentucky, I moved to Utah when I was 18 to begin my higher education at Utah State University where I completed
+      a dual Bachelors of Science in Computer Engineering and Economics.
+    </p>
+    <p>
+      Outside of work, I am an avid motorcyclist, hardware developer, and software hobbyist. I discovered my passion for investing during my
+      undergraduate where I became the lead stock investor in my Investment course. I dream of researching the bleeding edge of technology
+      as I introduce start up tech companies with financial intermediaries.
+    </p>
+  </>
+  ),
   aboutItems: [
     {label: 'Location', text: 'Logan, Utah, USA', Icon: MapIcon},
     {label: 'Age', text: '23', Icon: CalendarIcon},
@@ -195,19 +202,19 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
+    title: 'LED Cube',
+    description: 'An LED cube project that showcases innovative design and programming skills to create a visually stunning and interactive 3D display.',
     url: 'https://github.com/jpoll962',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
+    title: 'Adversarial Training',
+    description: 'An Adversarial Training project that leverages cutting-edge machine learning techniques to improve the robustness and security of AI systems.',
     url: 'https://github.com/jpoll962',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
+    title: 'BookTech RFID Scanner',
     description: 'Give a short description of your project here.',
     url: 'https://github.com/jpoll962',
     image: porfolioImage3,
@@ -270,13 +277,24 @@ export const education: TimelineItem[] = [
     date: 'August 2018 - May 2023',
     location: 'Utah State University | College of Engineering',
     title: 'Bachelors of Science in Computer Engineering',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: (
+      <ul>
+        <li>Minor: Mathematics</li>
+        <li>Dean's List</li>
+      </ul>
+    ),
   },
   {
     date: 'August 2018 - May 2023',
     location: 'Utah State University | Jon M. Huntsman School of Business',
     title: 'Bachelors of Science in Economics',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: (
+      <ul>
+        <li>Investment Banking Club</li>
+        <li>Finance & Economics Club</li>
+        <li>Koch Scholar's Program</li>
+      </ul>
+    ),
   },
 ];
 
@@ -286,10 +304,10 @@ export const experience: TimelineItem[] = [
     location: 'Anthos Capital',
     title: 'Venture Capital Scout',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <ul>
+        <li> Analyze over 300 prospective investment opportunities with an emphasis in start-ups in the technology industry </li>
+        <li> Connect with over 600 members in discussing and providing feedback to potential Venture Clients </li>
+      </ul>
     ),
   },
   {
@@ -297,10 +315,11 @@ export const experience: TimelineItem[] = [
     location: 'Merrill-Cazier Library',
     title: 'Night Supervisor',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <ul>
+        <li> Hired, trained, and managed over a dozen student workers while acting as primary staff member during evening hours </li>
+        <li> Assisted clients with library research services, and additional needs </li>
+        <li> Implemented new safety protocol with university police </li>
+      </ul>
     ),
   },
   {
@@ -308,10 +327,10 @@ export const experience: TimelineItem[] = [
     location: 'Topology Construction, LLC',
     title: 'Co-Founder',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <ul>
+        <li> Developed a general contracting company specializing in residential projects, which produced a lucrative profit within the first 30 days </li>
+        <li> Led all aspects of business operations, including sales/marketing, project management, budgeting, and investor opportunities until the business sold </li>
+      </ul>
     ),
   },
   {
@@ -319,10 +338,10 @@ export const experience: TimelineItem[] = [
     location: 'Roof Vets, LLC',
     title: 'Senior Insurance Specialist',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <ul>
+        <li> Estimated Replacement Cost Value of over 200 properties averaging in value of $80,000 </li>
+        <li> Communicated with insurance companies to negotiate coverage of replacement for property damages </li>
+      </ul>
     ),
   },
   {
@@ -330,10 +349,11 @@ export const experience: TimelineItem[] = [
     location: 'McDonald\'s',
     title: 'Crew Trainer',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <ul>
+        <li> Trained incoming employees on policies and procedures for cooking, uniform care, and financial services </li>
+        <li> Evaluated client satisfaction through surveys, administering new methods, and increasing client satisfaction such as streamlining the error resolution process by prioritizing client grievances over current orders </li>
+        <li> Improved stores ranking from 8th to 2nd out of 13 stores, after 2 months in role </li>
+      </ul>
     ),
   },
   {
@@ -341,10 +361,10 @@ export const experience: TimelineItem[] = [
     location: 'Bray\'s Orchard',
     title: 'Farm Hand',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <ul>
+        <li> Planted Tobacco along a multi-acre farm which profitted over $1,000 per acre upon harvest </li>
+        <li> Thinned and picked Peaches to be sold at the local Peach stand </li>
+      </ul>
     ),
   },
 ];
