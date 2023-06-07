@@ -230,8 +230,8 @@ export const education: TimelineItem[] = [
     title: 'Bachelors of Science in Computer Engineering',
     content: (
       <ul>
-        <li>Minor: Mathematics</li>
-        <li>Dean's List</li>
+        <li>* Minor in Mathematics</li>
+        <li>* Dean's List</li>
       </ul>
     ),
   },
@@ -241,9 +241,9 @@ export const education: TimelineItem[] = [
     title: 'Bachelors of Science in Economics',
     content: (
       <ul>
-        <li>Investment Banking Club</li>
-        <li>Finance & Economics Club</li>
-        <li>Koch Scholar's Program</li>
+        <li>* Investment Banking Club</li>
+        <li>* Finance & Economics Club</li>
+        <li>* Koch Scholar's Program</li>
       </ul>
     ),
   },
@@ -256,8 +256,8 @@ export const experience: TimelineItem[] = [
     title: 'Venture Capital Scout',
     content: (
       <ul>
-        <li> Analyze over 300 prospective investment opportunities with an emphasis in start-ups in the technology industry </li>
-        <li> Connect with over 600 members in discussing and providing feedback to potential Venture Clients </li>
+        <li>* Analyze over 300 prospective investment opportunities with an emphasis in start-ups in the technology industry </li>
+        <li>* Connect with over 600 members in discussing and providing feedback to potential Venture Clients </li>
       </ul>
     ),
   },
@@ -267,9 +267,9 @@ export const experience: TimelineItem[] = [
     title: 'Night Supervisor',
     content: (
       <ul>
-        <li> Hired, trained, and managed over a dozen student workers while acting as primary staff member during evening hours </li>
-        <li> Assisted clients with library research services, and additional needs </li>
-        <li> Implemented new safety protocol with university police </li>
+        <li>* Hired, trained, and managed over a dozen student workers while acting as primary staff member during evening hours </li>
+        <li>* Assisted clients with library research services, and additional needs </li>
+        <li>* Implemented new safety protocol with university police </li>
       </ul>
     ),
   },
@@ -279,8 +279,8 @@ export const experience: TimelineItem[] = [
     title: 'Co-Founder',
     content: (
       <ul>
-        <li> Developed a general contracting company specializing in residential projects, which produced a lucrative profit within the first 30 days </li>
-        <li> Led all aspects of business operations, including sales/marketing, project management, budgeting, and investor opportunities until the business sold </li>
+        <li>* Developed a general contracting company specializing in residential projects, which produced a lucrative profit within the first 30 days </li>
+        <li>* Led all aspects of business operations, including sales/marketing, project management, budgeting, and investor opportunities until the business sold </li>
       </ul>
     ),
   },
@@ -290,8 +290,8 @@ export const experience: TimelineItem[] = [
     title: 'Senior Insurance Specialist',
     content: (
       <ul>
-        <li> Estimated Replacement Cost Value of over 200 properties averaging in value of $80,000 </li>
-        <li> Communicated with insurance companies to negotiate coverage of replacement for property damages </li>
+        <li>* Estimated Replacement Cost Value of over 200 properties averaging in value of $80,000 </li>
+        <li>* Communicated with insurance companies to negotiate coverage of replacement for property damages </li>
       </ul>
     ),
   },
@@ -301,9 +301,9 @@ export const experience: TimelineItem[] = [
     title: 'Crew Trainer',
     content: (
       <ul>
-        <li> Trained incoming employees on policies and procedures for cooking, uniform care, and financial services </li>
-        <li> Evaluated client satisfaction through surveys, administering new methods, and increasing client satisfaction such as streamlining the error resolution process by prioritizing client grievances over current orders </li>
-        <li> Improved stores ranking from 8th to 2nd out of 13 stores, after 2 months in role </li>
+        <li>* Trained incoming employees on policies and procedures for cooking, uniform care, and financial services </li>
+        <li>* Evaluated client satisfaction through surveys, administering new methods, and increasing client satisfaction such as streamlining the error resolution process by prioritizing client grievances over current orders </li>
+        <li>* Improved stores ranking from 8th to 2nd out of 13 stores, after 2 months in role </li>
       </ul>
     ),
   },
@@ -313,8 +313,8 @@ export const experience: TimelineItem[] = [
     title: 'Farm Hand',
     content: (
       <ul>
-        <li> Planted Tobacco along a multi-acre farm which profitted over $1,000 per acre upon harvest </li>
-        <li> Thinned and picked Peaches to be sold at the local Peach stand </li>
+        <li>* Planted Tobacco along a multi-acre farm which profitted over $1,000 per acre upon harvest </li>
+        <li>* Thinned and picked Peaches to be sold at the local Peach stand </li>
       </ul>
     ),
   },
