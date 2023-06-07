@@ -15,13 +15,6 @@ import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -215,57 +208,15 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'BookTech RFID Scanner',
-    description: 'Give a short description of your project here.',
+    description: 'A handheld device designed to scan the RFID Tags in library books for the purposes of inventory and error detection.',
     url: 'https://github.com/jpoll962',
     image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/jpoll962',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/jpoll962',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/jpoll962',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/jpoll962',
-    image: porfolioImage7,
   },
   {
     title: 'InMoov Hand',
     description: 'This project involves the development of a 3D printed forearm and hand utilizing the "open-source 3D printed life-size robot" known as InMoov, created by Gael Langevin. The hardware programming, implemented in C++, enables precise movement control of the hand. This venture combines hardware programming expertise with innovative 3D printing technology, offering a unique opportunity to explore advancements in robotics and prosthetics.',
     url: 'https://github.com/jpoll962/InMoovHand',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/jpoll962',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/jpoll962',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/jpoll962',
-    image: porfolioImage11,
+    image: porfolioImage4,
   },
 ];
 
