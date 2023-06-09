@@ -66,8 +66,8 @@ export const heroData: Hero = {
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me <strong className="text-stone-100">strength training</strong> in the gym,
-        plucking my <strong className="text-stone-100">ukulele</strong>, or day-dreaming about the{' '}
-        <strong className="text-stone-100">depths of the ocean</strong>.
+        playing my <strong className="text-stone-100">ukulele</strong>, or fine-tuning my{' '}
+        <strong className="text-stone-100">motorcycle</strong>.
       </p>
     </>
   ),
@@ -94,14 +94,14 @@ export const aboutData: About = {
   description: ( 
   <>
     <p>
-      I am a computer nerd with an entrepreneurial spirit, a knack for cyber security, and a drive toward investment management.
+      I am a computer nerd with an entrepreneurial spirit, a knack for cyber security, and a drive toward portfolio management.
       Born in a small town in Kentucky, I moved to Utah when I was 18 to begin my higher education at Utah State University where I completed
       a dual Bachelors of Science in Computer Engineering and Economics.
     </p>
     <p>
       Outside of work, I am an avid motorcyclist, hardware developer, and software hobbyist. I discovered my passion for investing during my
-      undergraduate where I became the lead stock investor in my Investment course. I dream of researching the bleeding edge of technology
-      as I introduce start up tech companies with financial intermediaries.
+      undergraduate where I became the lead stock investor in my Investment course resulting in a $300,000 capital gain. I dream of being 
+      involved in the booming tech industry either through my own business or through assisting start-ups in funding their ambitions.
     </p>
   </>
   ),
